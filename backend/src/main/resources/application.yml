@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: prompt-dashboard-backend
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/prompt-dashboard
+      auto-index-creation: true
+
+server:
+  port: 8080
+  error:
+    include-message: always
+
+logging:
+  level:
+    root: INFO
+    com.promptdashboard.backend: DEBUG

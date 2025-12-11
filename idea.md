@@ -8,7 +8,7 @@ The main tool is Prompt and Rule builder tool which should allow us to  customiz
 ## The goal is to having multi user system for managing and sharing prompts and templates.
 
 **Backend** 
-- Technologies:  mvn, Java21 SpringBoot application, MongoDB 
+- Technologies:  mvn, Java25 SpringBoot application, MongoDB 
 - Storage:  
 	- local non encrypted file storage
 	- external storages S3, git repo
